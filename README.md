@@ -28,6 +28,6 @@ curl -X POST https://smscodex.com/api/v1/activations \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"service": "telegram", "country": "us"}'
-
+```
 ## License
 © 2026 SMSCodex. All rights reserved.
