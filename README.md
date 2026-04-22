@@ -1,16 +1,33 @@
-## Hi there 👋
+# SMSCodex
 
-<!--
-**smscodex/smscodex** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🔐 SMS verification service for developers and businesses.
 
-Here are some ideas to get you started:
+## Features
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🌍 Virtual numbers in **180+ countries**
+- 📱 **3000+ supported services** — Telegram, WhatsApp, Google, and more
+- ⚡ Instant SMS delivery
+- 🔌 Developer-friendly **REST API** with full documentation
+- 💰 Multiple payment methods including crypto (TON, TRON, BSC)
+- 🔄 Bulk activations and automated workflows
+
+## Quick Links
+
+| Resource | Link |
+|----------|------|
+| 🏠 Website | [smscodex.com](https://smscodex.com) |
+| 📖 API Documentation | [smscodex.com/api-docs](https://smscodex.com/api-docs) |
+| 💰 Pricing | [smscodex.com/activations](https://smscodex.com/activations) |
+| 📰 Blog | [smscodex.substack.com](https://smscodex.substack.com) |
+| 📧 Contact | [smscodex.com/contact](https://smscodex.com/contact) |
+
+## API Example
+
+```bash
+curl -X POST https://smscodex.com/api/v1/activations \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"service": "telegram", "country": "us"}'
+
+## License
+© 2026 SMSCodex. All rights reserved.
